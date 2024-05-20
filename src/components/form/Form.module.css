@@ -1,0 +1,41 @@
+.form, .field {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+.form {
+    width: 100%;
+}
+@media (min-width : 1024px){
+    .form {
+        width: 60%;
+        margin-left: auto;
+    }
+}
+.field {
+    color: black;
+    padding: 2rem;
+    gap: 1rem;
+}
+.textbox{
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 1.5rem;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, .2);
+}
+.buttom {
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: rgb(216, 216, 216);
+    border-radius: 1rem;
+    border-style: none;
+    transition-duration: .2s;
+    font-size: 1.5rem;
+}
+.buttom:hover {
+    cursor: pointer;
+    background-color: rgb(26, 26, 26);
+    color: white;
+}

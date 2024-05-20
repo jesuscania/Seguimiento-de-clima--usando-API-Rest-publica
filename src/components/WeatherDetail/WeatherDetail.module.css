@@ -1,0 +1,47 @@
+.cityText{
+    color: rgb(236, 153, 98);
+}
+.container{
+    margin-top: 2rem;
+    padding: 4rem;
+    background: linear-gradient(135deg, rgba(255,255,255,.1), rgba()255,255,255,0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, .37);
+}
+@media (min-width : 1024px) {
+    .container {
+        margin: 0;
+        width: 60%;
+    }
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255,255,255,.1);
+    background-color: rgba(0, 0, 0, .1);
+}
+.title::after{
+    content: "";
+    margin-top: 1rem;
+    display: block;
+    border-bottom: 1px solid #fff;
+    width: 85%;
+}
+.P_temp{
+    font-size: 6rem;
+    font-weight: bold;
+}
+.temp{
+    color: rgb(236, 153, 98);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.r{
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+    justify-content: space-between;
+}

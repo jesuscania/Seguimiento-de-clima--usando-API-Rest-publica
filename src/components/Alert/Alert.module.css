@@ -1,0 +1,7 @@
+.error{
+    background-color: rgb(185, 6, 6);
+    padding: 1rem;
+    text-align: center;
+    transition-duration: .3s;
+    margin: 0;
+}
